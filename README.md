@@ -48,7 +48,7 @@
   * Payment type - acquiring
   * Allow recalculation - yes
   * Allow to print chaques - yes
-  * Encoding - UTF-8
+  * Encoding - empty
   * Code - empty
   ----------------------------------------------------------------
  * Template ID - 19
