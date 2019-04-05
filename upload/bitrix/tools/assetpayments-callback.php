@@ -18,7 +18,7 @@ if (CModule::IncludeModule('sale')) {
 	$arOrder = CSaleOrder::GetByID($order_id);
 	CSalePaySystemAction::InitParamArrays($arOrder, $arOrder["ID"]);
 	$key = CSalePaySystemAction::GetParamValue("ASSET_MERCHANT");
-	$secret = CSalePaySystemAction::GetParamValue("ASSET_SECURE_KEY");
+	$secret = CSalePaySystemAction::GetParamValue("ASSET_SECRET_KEY");
 	
 	//****Check signature****//
 	$signature = $json['Payment']['Signature'];
