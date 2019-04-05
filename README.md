@@ -2,7 +2,8 @@
 
 ### Установка
 
-* Загрузите содержимое директории upload/ в корень сайта по фтп
+* Выберите модуль, соответствующий кодировке Вашего сайтаа (utf-8 или win-1251) в папке uploads
+* Распакуйте содержимое архива в корень сайта по фтп
 * Добавьте модуль в меню Магазин -> Настройки -> Платежные системы -> Добавить платежную систему
 * Настройки:
  * Обработчик - Пользовательские - AssetPayments
@@ -16,7 +17,7 @@
  * Тип оплаты - Эквайринговая операция, или безналичный
  * Разрешить автопересчет оплаты - да
  * Разрешить печать чеков - нет
- * Кодировка - UTF-8 или Win-1251
+ * Кодировка - пусто
  * Код - пусто
  ----------------------------------------------------------------
  * ID Шаблона - 19
@@ -25,14 +26,15 @@
  * Сохранить
 
 ### Примечания
-Протестировано с Bitrix 18.1.5 Управление сайтом (Дистрибутивы Малый бизнес и Бизнес) 
+Протестировано с Bitrix 18.0.1 и 18.1.5 Управление сайтом (Дистрибутивы Малый бизнес и Бизнес) 
 
 
 ## Bitrix 18 payment module
 
 ### Installation
 
-* Upload the [upload] directory content to root directory of your website via ftp
+* Choose correct encoding version of payment extension inside upload directory
+* Upload archive contents to root directory of your website via ftp
 * Add new module in Shop ->Settings->Payment methods->Add payment method
 * Settings:
   * Processor - AssetPayments 
@@ -55,5 +57,5 @@
  * Press Save settings.
   
 ### Notes
-Tested with Bitrix 18.1.5 Site management (Small business & Business editions) 
+Tested with Bitrix 18.0. & 18.1.5 Site management (Small business & Business editions) 
 
