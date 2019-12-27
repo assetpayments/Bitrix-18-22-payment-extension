@@ -1,4 +1,4 @@
-## Модуль оплаты Битрикс 18
+## Модуль оплаты Битрикс 20,19,18
 
 ### Установка
 
@@ -26,10 +26,14 @@
  * Сохранить
 
 ### Примечания
-Протестировано с Bitrix 18.0.1 и 18.1.5 Управление сайтом (Дистрибутивы Малый бизнес и Бизнес) 
+Протестировано с Bitrix версий 18, 19, 20 Управление сайтом (Дистрибутивы Малый бизнес и Бизнес) 
+В случае ошибки проверьте права присвоенные файлам и папкам
+- Владелец - Bitrix
+- Папка 0775
+- Файлы 0755 или 0644
 
 
-## Bitrix 18 payment module
+## Bitrix 20, 19, 18 payment module
 
 ### Installation
 
@@ -57,5 +61,8 @@
  * Press Save settings.
   
 ### Notes
-Tested with Bitrix 18.0. & 18.1.5 Site management (Small business & Business editions) 
-
+Tested with Bitrix version 18, 19, 20 Site management (Small business & Business editions) 
+If errors please check files and folders permission
+- Owner - Bitrix
+- Folders - 0775
+- Files - 0755 или 0644
